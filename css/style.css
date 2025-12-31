@@ -7,6 +7,30 @@
     object-fit: cover;
     border-radius: 8px;
 }
+.item :hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    filter: brightness(1.1); 
+
+}
+ h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e6dede;
+    background-color: #641111;
+    padding: 15px;
+    border-radius: 10px;    
+    transition: letter-spacing 0.4s ease;
+}   
+
+h1:hover {
+    background-color: #8c1c1c;
+    filter: brightness(1.1); 
+    letter-spacing:  5px;
+    
+    
+}
+
 #lightbox {
     position: fixed;
     inset: 0;
